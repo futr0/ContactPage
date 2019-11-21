@@ -45,8 +45,8 @@ appsettings.json -> MailOptions
 ```
 Run the code.
 
-#### Testing
+### Testing
 
 Unit tests are stored in ContactPageTests subproject.
-NUnit framework + Moq library.
-They can be runned via VS "Test" tab.
+Framework: NUnit + Moq.
+They can be runned via VisualStudio "Test" tab.

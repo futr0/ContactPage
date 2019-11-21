@@ -13,11 +13,18 @@ namespace ContactPage.Helpers
         public string ReceiverEmailPassword { get; set; }
         public string Host { get; set; }
         public string Port { get; set; }
+
+        private IMessageFormatter _messageFormatter;
         #endregion
 
         public MailHandler()
         {
+            _messageFormatter = new EmailMessageFormatter();
+        }
 
+        public MailHandler(IMessageFormatter messageFormatter)
+        {
+            _messageFormatter = messageFormatter;
         }
 
         public void Configure(string emailAddress, string displayName, string emailPassword, string host, string port)
@@ -34,7 +41,7 @@ namespace ContactPage.Helpers
         {
             var sender = new MailAddress(senderEmail, senderName);
             var receiverEmail = new MailAddress(ReceiverEmailAddress, ReceiverDisplayName);
-            var body = FormatBody(senderName, senderSurname, senderPhone, message, senderEmail);
+            var body = _messageFormatter.FormatBody(senderName, senderSurname, senderPhone, message, senderEmail);
             var smtp = GetSmtpClient();
             var mess = GenerateMailMessage(sender, receiverEmail, subject, body);
             try
@@ -73,13 +80,6 @@ namespace ContactPage.Helpers
                 Credentials = new NetworkCredential(ReceiverEmailAddress, ReceiverEmailPassword)
             };
             return smtp;
-        }
-
-        private string FormatBody(string senderName, string senderSurname, string senderPhone,
-            string message, string senderEmail)
-        {
-            return
-                $"Message from: {senderName} {senderSurname}\n Text: {message} \n Contact: e-mail: {senderEmail}, phone number: {senderPhone}";
         }
     }
 }

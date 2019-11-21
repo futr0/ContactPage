@@ -278,3 +278,5 @@ C:\Projects\CPAsp\ContactPage\obj\Debug\netcoreapp3.0\ContactPage.Views.pdb
 C:\Projects\CPAsp\ContactPage\obj\Debug\netcoreapp3.0\ContactPage.csproj.CopyComplete
 C:\Projects\CPAsp\ContactPage\obj\Debug\netcoreapp3.0\ContactPage.dll
 C:\Projects\CPAsp\ContactPage\obj\Debug\netcoreapp3.0\ContactPage.pdb
+C:\Projects\CPAsp\ContactPage\obj\Debug\netcoreapp3.0\Razor\Views\Error\Error404.cshtml.g.cs
+C:\Projects\CPAsp\ContactPage\obj\Debug\netcoreapp3.0\Razor\Views\Error\Error.cshtml.g.cs

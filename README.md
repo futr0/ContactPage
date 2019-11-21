@@ -18,9 +18,14 @@ Project packages:
 
 * Microsoft.EntityFrameworkCore.Tools (3.0.1)
 * Microsoft.EntityFrameworkCore.SqlServer (3.0.1)
-* Twitter Bootstrap (4.3.1)
+* Microsoft.NET.Test.Sdk (16.4.0)
 * NUnit (3.12.0)
 * NUnit3TestAdapter (3.13.0)
+* Moq (4.13.1)
+
+Libraries:
+
+* Twitter Bootstrap (4.3.1)
 
 ### Development
 
@@ -44,3 +49,4 @@ Run the code.
 
 Unit tests are stored in ContactPageTests subproject.
 NUnit framework + Moq library.
+They can be runned via VS "Test" tab.

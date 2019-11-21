@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ContactPageAsp\\ContactPage.Tests\\ContactPage.Tests.csproj": {}
+    "C:\\Projects\\CPAsp\\ContactPage.Tests\\ContactPage.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ContactPageAsp\\ContactPage.Tests\\ContactPage.Tests.csproj": {
+    "C:\\Projects\\CPAsp\\ContactPage.Tests\\ContactPage.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ContactPageAsp\\ContactPage.Tests\\ContactPage.Tests.csproj",
+        "projectUniqueName": "C:\\Projects\\CPAsp\\ContactPage.Tests\\ContactPage.Tests.csproj",
         "projectName": "ContactPage.Tests",
-        "projectPath": "C:\\Projects\\ContactPageAsp\\ContactPage.Tests\\ContactPage.Tests.csproj",
+        "projectPath": "C:\\Projects\\CPAsp\\ContactPage.Tests\\ContactPage.Tests.csproj",
         "packagesPath": "C:\\Users\\artur\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ContactPageAsp\\ContactPage.Tests\\obj\\",
+        "outputPath": "C:\\Projects\\CPAsp\\ContactPage.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\artur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Projects\\ContactPageAsp\\ContactPage\\ContactPage.csproj": {
-                "projectPath": "C:\\Projects\\ContactPageAsp\\ContactPage\\ContactPage.csproj"
+              "C:\\Projects\\CPAsp\\ContactPage\\ContactPage.csproj": {
+                "projectPath": "C:\\Projects\\CPAsp\\ContactPage\\ContactPage.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Projects\\ContactPageAsp\\ContactPage\\ContactPage.csproj": {
+    "C:\\Projects\\CPAsp\\ContactPage\\ContactPage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ContactPageAsp\\ContactPage\\ContactPage.csproj",
+        "projectUniqueName": "C:\\Projects\\CPAsp\\ContactPage\\ContactPage.csproj",
         "projectName": "ContactPage",
-        "projectPath": "C:\\Projects\\ContactPageAsp\\ContactPage\\ContactPage.csproj",
+        "projectPath": "C:\\Projects\\CPAsp\\ContactPage\\ContactPage.csproj",
         "packagesPath": "C:\\Users\\artur\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ContactPageAsp\\ContactPage\\obj\\",
+        "outputPath": "C:\\Projects\\CPAsp\\ContactPage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\artur\\AppData\\Roaming\\NuGet\\NuGet.Config",

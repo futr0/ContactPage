@@ -76,9 +76,9 @@ namespace ContactPage.Controllers
         private async Task SendMail(ContactMessages contactMessages)
         {
             ConfigureMail();
-            //var areaOfInterest = _context.MessagesAreaOfInterest.ToList().First(p => p.Id == contactMessages.AreaOfInterest).AreaOfInterest.ToString();
+            var areaOfInterest = _context.MessagesAreaOfInterest.ToList().First(p => p.Id == contactMessages.AreaOfInterest).AreaOfInterest.ToString();
             await _mailHandler.SendEmail(contactMessages.FirstName, contactMessages.LastName, contactMessages.Email,
-                                  contactMessages.Phone, "New Contact Message", contactMessages.ContactMessage);
+                                  contactMessages.Phone, areaOfInterest, contactMessages.ContactMessage);
         }
     }
 }

@@ -8154,11 +8154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ContactPageAsp\\ContactPage\\ContactPage.csproj",
+      "projectUniqueName": "C:\\Projects\\CPAsp\\ContactPage\\ContactPage.csproj",
       "projectName": "ContactPage",
-      "projectPath": "C:\\Projects\\ContactPageAsp\\ContactPage\\ContactPage.csproj",
+      "projectPath": "C:\\Projects\\CPAsp\\ContactPage\\ContactPage.csproj",
       "packagesPath": "C:\\Users\\artur\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\ContactPageAsp\\ContactPage\\obj\\",
+      "outputPath": "C:\\Projects\\CPAsp\\ContactPage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\artur\\AppData\\Roaming\\NuGet\\NuGet.Config",
